@@ -1,0 +1,127 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "NT Infotech",
+      "password": "admin",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "testuser",
+      "name": "Test User",
+      "password": "Test@1234",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "Jhon1",
+      "name": "NT Infotech",
+      "password": "Test@1233",
+      "role": "user",
+      "isactive": false
+    },
+    {
+      "id": "ntuser",
+      "name": "ramesh",
+      "password": "Test@1234",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "admin2",
+      "name": "houssam",
+      "password": "admin123",
+      "role": "user",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User",
+      "id": "97a1"
+    },
+    {
+      "code": "admin",
+      "name": "admin",
+      "id": "cc50"
+    }
+  ],
+  "menu": [
+    {
+      "code": "user",
+      "name": "User",
+      "id": "6343"
+    },
+    {
+      "code": "book",
+      "name": "book",
+      "id": "4715"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true,
+      "id": "859c"
+    },
+    {
+      "role": "admin",
+      "menu": "book",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true,
+      "id": "24e3"
+    },
+    {
+      "role": "user",
+      "menu": "user",
+      "haveedit": false,
+      "haveadd": false,
+      "havedelete": false,
+      "id": "0a6e"
+    },
+    {
+      "role": "user",
+      "menu": "book",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": false,
+      "id": "99d5"
+    }
+  ],
+  "books": [
+    {
+      "bookName": "Moby dog",
+      "bookAuthor": "Herman Melville",
+      "bookGenre": "Adventure",
+      "noOfCopies": 2,
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "bookName": "Pride and Prejudice",
+      "bookAuthor": "Jane Austen",
+      "bookGenre": "Romance",
+      "noOfCopies": 6
+    },
+    {
+      "id": "6",
+      "bookName": "la boite a mervll",
+      "bookAuthor": "ahmed el safriwi",
+      "bookGenre": "roman",
+      "noOfCopies": 100
+    },
+    {
+      "id": "7",
+      "bookName": "gtfytf",
+      "bookAuthor": "giyt",
+      "bookGenre": "kuyv",
+      "noOfCopies": 4354
+    }
+  ]
+}
